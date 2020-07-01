@@ -1,0 +1,58 @@
+---
+title: "Test Title"
+author: "Ugyen Norbu"
+output: 
+    pdf_document:
+        toc: true
+        toc_depth: 2
+        number_section: true
+        df_print: kable
+        # theme: cerulean
+        highlight: pygments
+        # code_folding: hide
+# editor_options: 
+  # chunk_output_type: inline
+---
+
+ ```{js, echo=FALSE} 
+ $('.title').css('color', '#1F618D')
+ ```
+ 
+# Just do it
+
+What is the matter with this document?
+
+## Just do it again
+
+```{r}
+summary(iris)
+```
+
+### Just do it again and again
+
+```{r}
+a <- 12
+b <- 33
+```
+
+a + b = `r a + b`
+
+
+```{r out.width = "25%", fig.align = "center", fig.cap = "This is a caption"}
+
+knitr::include_graphics("image/40_yr_logo.png")
+```
+
+# Section
+
+Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. 
+
+## Sub-sectin
+Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. 
+
+### Sub sub-section
+Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. 
+
+### also Check the font size here. Check the font size here. Check the font size here. Check the font size here. 
+
+### here Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. Check the font size here. 
